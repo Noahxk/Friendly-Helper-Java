@@ -9,9 +9,9 @@ public final class ProbabilityManager {
         return random.nextBoolean();
     }
 
-    // max is inclusive
+    // max is exclusive
     public static int randomInteger(int max) {
-        return random.nextInt(max + 1);
+        return random.nextInt(max);
     }
 
     // min and max are inclusive
