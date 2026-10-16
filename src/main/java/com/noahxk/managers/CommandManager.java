@@ -17,6 +17,7 @@ public class CommandManager extends ListenerAdapter {
         registerCommand(new EconomyCommand());
         registerCommand(new SecurityLevelCommand());
         registerCommand(new WhoIsThisCommand());
+        registerCommand(new CoinflipCommand());
     }
 
     private void registerCommand(Command command) {
